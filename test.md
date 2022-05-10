@@ -25,24 +25,26 @@ addSix(20) // prints 26
 ### Question 4
 What will be the output of following code snippets
 
-`console.log(5 === '5');`
+```
+console.log(5 === '5');
+```
 
-==========================
+```
+console.log(true == 1);
+```
 
-`console.log(true == 1);`
+```
+console.log(myVar);
+var myVar = 10;
+```
 
-==========================
+```
+const obj = { a: 1 };
+obj.b = 2;
+```
 
-`console.log(myVar);`
-`var myVar = 10;`
-
-==========================
-
-`const obj = { a: 1 };`
-`obj.b = 2;`
-
-==========================
-
-`let obj1 = {};`
-`let obj2 = {};`
-`console.log(obj1 == obj2);`
+```
+let obj1 = {};
+let obj2 = {};
+console.log(obj1 == obj2);
+```
